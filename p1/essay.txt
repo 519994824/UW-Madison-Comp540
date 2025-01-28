@@ -1,0 +1,29 @@
+In the past decade, the AI field can truly be described as a blossoming of various schools of thought; the advent of ChatGPT has indeed ushered human society into the AI era. Currently, AI in natural language processing, mathematics, programming, vision, and other areas performs at or even exceeds human levels, and many specialized large models have emerged to serve various application scenarios, such as medical diagnostics, e-commerce recommendation systems, and machine translation. However, current technology still has some distance to cover to achieve true Artificial General Intelligence (AGI).
+
+For example, even GPT-4, one of the strongest large models currently, is limited by its autoregressive architecture and cannot simultaneously handle overarching contexts and details. This results in poor performance in tasks that require global planning or logical coherence. Additionally, due to the dialogue mechanism's limitations, large models still cannot overcome input length restrictions and cannot update the model in real-time during dialogues, thus they are not suitable for long-term planning tasks.
+
+Here, based on current societal demands for AI and the shortcomings of current large models, I propose two predictions for breakthroughs in the AI field over the next two years.
+
+Without altering the model structure, I believe that research in the next two years will focus on ultra-long tokens, such as evolutionary algorithm-based Rotational Position Encoding (RoPE) or models akin to compressed memory, such as Infini-attention mechanisms. Ultimately, we aim to achieve an AI model with near-infinite memory.
+
+On the path to general AI models, I predict that world models will become the mainstream trend. The world doesn't have enough labeled data for current transformer structures to learn from, and limited by their training modes, current large language models are only skilled at generating content from existing knowledge and cannot generate new knowledge, which does not align well with our ultimate vision. Thus, to create real AI, we need to capture commonsense background knowledge about the world and then encode it into digital representations that algorithms can access later. For effectiveness, the system must learn these representations in a self-supervised manner. For example, I-JEPA, the first AI model based on Yann LeCun's vision of AI that is more like human intelligence, hopes to learn useful representations by predicting representations at a high abstract level rather than directly predicting pixel values, thus avoiding the limitations of generative methods. I believe that such a universal learning model can be extended to various domains like video and speech, and find broader applications in interdisciplinary fields.
+
+Today, it is widely acknowledged that we have entered the AI era, and governments worldwide are actively advancing relevant policies. It can be confidently said that humanity can no longer do without AI. Precisely because of the current deficiencies of large language models, there is an urgent need for such evolved AI to solve more real-world problems. In real life, we need an AI with long-term memory, not just short-dialogue AI, to perform more complex continuous tasks, much like Jarvis in Iron Man, a truly powerful AI assistant; simultaneously, real-world problems often deeply involve multiple domains, and world models can adaptively adjust the weight and role of each domain model according to different environments and needs. This is the AGI model that better meets the needs of human society and can be widely accepted by people. Therefore, I believe my predictions are reasonable and will be broadly accepted by human society.
+
+[1] Michael L. Littman, Ifeoma Ajunwa, Guy Berger, Craig Boutilier, Morgan Currie, Finale Doshi-Velez, Gillian Hadfield,
+
+Michael C. Horowitz, Charles Isbell, Hiroaki Kitano, Karen Levy, Terah Lyons, Melanie Mitchell, Julie Shah, Steven
+
+Sloman, Shannon Vallor, and Toby Walsh. "Gathering Strength, Gathering Storms: The One Hundred Year Study on
+
+Artificial Intelligence (AI100) 2021 Study Panel Report." Stanford University, Stanford, CA, September 2021.
+
+[2] Bubeck, S., Chandrasekaran, V., Eldan, R., Gehrke, J., Horvitz, E., Kamar, E., Lee, P., Lee, Y.T., Li, Y., Lundberg, S.
+
+and Nori, H., 2023. Sparks of artificial general intelligence: Early experiments with gpt-4. arXiv preprint arXiv:2303.12712.
+
+[3] Ding, Y., Zhang, L.L., Zhang, C., Xu, Y., Shang, N., Xu, J., Yang, F., & Yang, M. (2024). LongRoPE: Extending LLM Context Window Beyond 2 Million Tokens. _ArXiv, abs/2402.13753_.
+
+[4] Munkhdalai, T., Faruqui, M., & Gopal, S. (2024). Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention. _ArXiv, abs/2404.07143_.
+
+[5] Assran, M., Duval, Q., Misra, I., Bojanowski, P., Vincent, P., Rabbat, M.G., LeCun, Y., & Ballas, N. (2023). Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture. _2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)_, 15619-15629.
